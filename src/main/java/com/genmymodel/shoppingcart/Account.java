@@ -51,7 +51,7 @@ public class Account
 	 * @ordered
 	 */
 	
-	public Customer customer;
+	public Set<Payment> payment;
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -67,7 +67,7 @@ public class Account
 	 * @ordered
 	 */
 	
-	public Set<Payment> payment;
+	public ShoppinCart cart;
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -75,7 +75,7 @@ public class Account
 	 * @ordered
 	 */
 	
-	public ShoppinCart cart;
+	public Customer customer;
 
 	/**
 	 * <!-- begin-user-doc -->
