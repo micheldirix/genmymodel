@@ -16,6 +16,13 @@ public class Address
 	 * @generated
 	 * @ordered
 	 */
+	public String street;
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
 	public Set<User> user;
 	
 
