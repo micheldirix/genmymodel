@@ -40,6 +40,14 @@ public class User
 	 * @generated
 	 * @ordered
 	 */
+	public String image;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
 	public Set<Address> address;
 	
 
