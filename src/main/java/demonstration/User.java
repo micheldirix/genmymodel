@@ -32,6 +32,14 @@ public class User
 	 * @generated
 	 * @ordered
 	 */
+	public String email;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
 	public Set<Address> address;
 	
 
